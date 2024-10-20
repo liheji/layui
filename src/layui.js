@@ -50,6 +50,7 @@
 
   // 内置模块
   var modules = config.builtin = {
+    lay: 'lay', // 基础 DOM 操作
     layer: 'layer', // 弹层
     util: 'util', // 工具块
     jquery: 'jquery', // DOM 库（第三方）
